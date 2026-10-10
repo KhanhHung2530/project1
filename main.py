@@ -5,6 +5,12 @@ def isPrime(n):
         if n % i == 0: 
             return False 
     return True 
+def countPrimes(numbers_list):
+    count = 0
+    for num in numbers_list:
+        if isPrime(num):
+            count += 1
+    return count
 # Nhận một chuỗi các số nguyên từ người dùng, cách nhau bởi dấu cách 
 input_str = input("Enter a list of numbers separated by space: ") 
 # Tách chuỗi thành các chuỗi con và chuyển đổi chúng thành số nguyên 
