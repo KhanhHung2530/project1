@@ -25,3 +25,6 @@ if numbers:
         print(f"{num_to_check} is not a prime number.")
 def sortArray(arr):
     return sorted(arr)
+
+# Vá lỗi khẩn cấp
+print("Hotfix: Đã vá một lỗi nhỏ trên nhánh main!")
